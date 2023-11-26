@@ -3,7 +3,7 @@
 /**
  * _memcpy - memory copy
  * @newptr: pointer
- * @ptr: str 
+ * @ptr: str
  * @size: size
  * Return: none
  */
@@ -54,7 +54,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 }
 
 /**
- * _reallocdp - memmory alloc 
+ * _reallocdp - memmory alloc
  * @ptr: pointer
  * @old_size: size
  * @new_size: new size

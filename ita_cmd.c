@@ -4,7 +4,7 @@
  * is_cdir - is dir
  * @path: path
  * @i: int
- * Return:int 
+ * Return: int
  */
 int is_cdir(char *path, int *i)
 {
@@ -25,7 +25,7 @@ int is_cdir(char *path, int *i)
 /**
  * _which - path check
  * @cmd: cmd
- * @_environ: var 
+ * @_environ: var
  * Return: char
  */
 char *_which(char *cmd, char **_environ)

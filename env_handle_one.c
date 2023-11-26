@@ -22,7 +22,7 @@ int cmp_env_name(const char *nenv, const char *name)
 }
 
 /**
- * _getenv - get env 
+ * _getenv - get env
  * @name: int
  * @_environ: environs
  * Return: int

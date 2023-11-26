@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * get_sigint - gets single int 
+ * get_sigint - gets single int
  * @sig: var
  */
 void get_sigint(int sig)

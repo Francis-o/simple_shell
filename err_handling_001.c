@@ -38,7 +38,7 @@ char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 }
 
 /**
- * error_get_cd - get cmd 
+ * error_get_cd - get cmd
  * @datash: data
  * Return: error
  */

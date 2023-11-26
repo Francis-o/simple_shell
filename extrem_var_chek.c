@@ -85,7 +85,7 @@ int check_vars(r_var **h, char *in, char *st, data_shell *data)
  * replaced_input - replace input
  * @head: var
  * @input: var
- * @new_input: var 
+ * @new_input: var
  * @nlen: var
  * Return: char
  */

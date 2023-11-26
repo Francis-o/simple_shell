@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * bring_line - gets line 
+ * bring_line - gets line
  * @lineptr: interpreter
  * @buffer: buff
  * @n: var

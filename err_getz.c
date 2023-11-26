@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * get_error - gets error 
+ * get_error - gets error
  * @datash: var
  * @eval: var
  * Return: eval

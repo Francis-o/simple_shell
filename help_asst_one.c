@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * get_help - gets help 
+ * get_help - gets help
  * @datash: data
  * Return: int
  */

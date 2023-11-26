@@ -3,7 +3,7 @@
 /**
  * _strdup - str funtion
  * @s: var
- * Return: new str 
+ * Return: new str
  */
 char *_strdup(const char *s)
 {
@@ -21,7 +21,7 @@ char *_strdup(const char *s)
 /**
  * _strlen - string length
  * @s: pointer
- * Return: 
+ * Return: int
  */
 int _strlen(const char *s)
 {
@@ -75,12 +75,12 @@ char *_strtok(char str[], const char *delim)
 	{
 		if (cmp_chars(str, delim))
 			return (NULL);
-		splitted = str; 
+		splitted = str;
 		i = _strlen(str);
-		str_end = &str[i]; 
+		str_end = &str[i];
 	}
 	str_start = splitted;
-	if (str_start == str_end) 
+	if (str_start == str_end)
 		return (NULL);
 
 	for (bool = 0; *splitted; splitted++)
@@ -100,10 +100,10 @@ char *_strtok(char str[], const char *delim)
 				break;
 			}
 		}
-		if (bool == 0 && *splitted) 
+		if (bool == 0 && *splitted)
 			bool = 1;
 	}
-	if (bool == 0) 
+	if (bool == 0)
 		return (NULL);
 	return (str_start);
 }
@@ -111,7 +111,7 @@ char *_strtok(char str[], const char *delim)
 /**
  * _isdigit - checks if its digit
  * @s: str
- * Return: bool 
+ * Return: bool
  */
 int _isdigit(const char *s)
 {

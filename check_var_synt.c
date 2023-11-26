@@ -4,7 +4,7 @@
  * repeated_char - repeated charaxter
  * @input: input
  * @i: int
- * Return: int 
+ * Return: int
  */
 int repeated_char(char *input, int i)
 {
@@ -69,7 +69,7 @@ int error_sep_op(char *input, int i, char last)
  * first_char - furst character
  * @input: input
  * @i:int
- * Return: int 
+ * Return: int
  */
 int first_char(char *input, int *i)
 {

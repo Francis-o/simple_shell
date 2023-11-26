@@ -2,7 +2,7 @@
 
 /**
  * get_builtin - gets buuiltin command
- * @cmd: command 
+ * @cmd: command
  */
 int (*get_builtin(char *cmd))(data_shell *)
 {

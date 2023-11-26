@@ -30,7 +30,7 @@ int get_len(int n)
 /**
  * aux_itoa - buff funct
  * @n: int
- * Return: int 
+ * Return: int
  */
 char *aux_itoa(int n)
 {
